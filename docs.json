@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "sequoia",
   "name": "DarkRP Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6a4040",
+    "light": "#b69494",
+    "dark": "#453333"
   },
   "favicon": "/images/3Kidneys.png",
   "navigation": {
@@ -83,10 +83,7 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/3Kidneys.png",
   "navbar": {
     "links": [
       {
@@ -118,5 +115,12 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "background": {
+    "decoration": "grid"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   }
 }
